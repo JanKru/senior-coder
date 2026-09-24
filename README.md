@@ -7,6 +7,6 @@ assetAstronaut and other software projects.
 
 ```bash
 hermes profile install \
-  git@github.com:USERNAME/asset-astronaut-coder.git \
-  --aliass
-  ```
+  git@github.com:USERNAME/hermes-senior-coder.git \
+  --alias
+```
