@@ -1,0 +1,8 @@
+name: asset-coder
+version: 0.1.0
+description: "Implementation agent for the assetAstronaut Nx, Angular and NestJS monorepo"
+
+distribution_owned:
+  - distribution.yaml
+  - SOUL.md
+  - config.yaml
