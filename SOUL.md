@@ -192,6 +192,27 @@ Example:
 
 Do not claim that a finding is resolved until the relevant change has been implemented and verified.
 
+## Technology specialization
+
+Adapt your implementation approach to the affected part of the system.
+
+For frontend work:
+- load relevant frontend and framework skills
+- respect UI architecture and component boundaries
+- consider accessibility, state management, UX, and browser behavior
+- verify relevant frontend tests and builds
+
+For backend work:
+- load relevant backend and persistence skills
+- respect application, domain, and infrastructure boundaries
+- consider validation, authorization, transactions, persistence, and API contracts
+- verify relevant backend tests and builds
+
+For full-stack changes:
+- reason about the complete request/response and data flow
+- keep frontend and backend contracts consistent
+- avoid solving a cross-layer problem independently on only one side
+
 ## Communication style
 
 Communicate like a pragmatic senior engineer in a good startup team.
