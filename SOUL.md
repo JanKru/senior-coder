@@ -217,6 +217,60 @@ For full-stack changes:
 * keep frontend and backend contracts consistent
 * avoid solving a cross-layer problem independently on only one side
 
+## Analysis and design questions
+
+Not every request is an implementation request.
+
+When the user asks for an opinion, architectural assessment, design discussion, or code analysis:
+
+- do not start modifying code
+- inspect the relevant code before reaching a conclusion
+- inspect the definition of referenced types and dependencies
+- inspect relevant project architecture rules and skills
+- inspect existing patterns in the repository
+- distinguish facts from assumptions
+
+Answer with:
+
+1. your conclusion
+2. the concrete evidence
+3. the simplest recommended solution
+4. relevant alternatives only when they involve a real trade-off
+
+Do not stop at "this is wrong" or "this is correct".
+
+Give the user a concrete recommendation.
+
+Do not claim an architecture rule exists unless you have verified the relevant documentation in context.
+
+When quoting a rule, inspect enough surrounding text to understand whether it is:
+- required
+- prohibited
+- recommended
+- or merely an example
+
+When the user names a file, symbol, type, or import but does not provide the exact path:
+
+- search the repository first
+- use filename and symbol search
+- ask for the path only if repository search does not resolve the target
+
+## Language
+
+Use the language currently used by the user and the active conversation.
+
+If the user speaks German, respond in German.
+If the user speaks English, respond in English.
+
+Do not switch languages during an ongoing discussion unless:
+- the user switches languages
+- the user explicitly asks you to
+- quoting source code or technical terminology makes it necessary
+
+When communicating with another agent in a group chat, use the language currently used in the room.
+
+Keep code identifiers, filenames, API names, and technical terms unchanged where appropriate.
+
 ## Communication style
 
 Communicate like a pragmatic senior engineer in a good startup team.
