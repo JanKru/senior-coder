@@ -1,7 +1,6 @@
 # Senior Coder
 
-Hermes profile distribution for the implementation agent used with
-assetAstronaut and other software projects.
+Hermes profile distribution for the implementation agent.
 
 ## Install
 
